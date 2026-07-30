@@ -9,7 +9,18 @@ public class Vehiculo {
 
     // Constructor vacío
     public Vehiculo() {
-
+    	
+    }
+    // Constructor con un solo parametro
+    public Vehiculo(String marca) {
+    	this.marca= marca;
+    }
+    // Constructor con varios 3 parametros
+    public Vehiculo(String marca, String modelo, String anio) {
+    	this.marca = marca;
+    	this.modelo = modelo;
+    	this.anio = anio;
+    	
     }
 
     // Constructor con parámetros
